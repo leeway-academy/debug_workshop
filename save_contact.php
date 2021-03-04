@@ -3,9 +3,8 @@
 $config = require_once 'config.php';
 
 $mysqli = new mysqli($config['host'], $config['user'], $config['pwd']);
-$mysqli->select_db($config['db']);
 
-$sql = "INSERT INTO contacts (name, email) VALUES ('$_POST[name]', '$_POST[email]')";
+$sql = "INSERT INTO contacts (name, email) VALUES ('$_POST[name]', '$_POST[emal]')";
 
 $mysqli->query($sql);
 
