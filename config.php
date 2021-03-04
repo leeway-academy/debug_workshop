@@ -11,5 +11,5 @@ return [
     'host' => 'localhost',
     'user' => 'root',
     'pwd' => 'root',
-    'db' => 'epiz_28017509_XXX',
+    'db' => 'epiz_28017509_php_debug',
 ];
